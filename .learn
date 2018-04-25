@@ -6,3 +6,5 @@ languages:
   - Ruby
 resources:
   - http://guides.rubyonrails.org/action_controller_overview.html#filters
+
+parent_template: git@github.com:learn-co-curriculum/login_required_lab.git

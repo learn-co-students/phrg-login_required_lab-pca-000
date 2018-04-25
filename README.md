@@ -27,4 +27,4 @@ Use the specs as your guide, but we'd like the following behavior. We should be 
 
 Happy coding!
 
-<p data-visibility='hidden'>View <a href='https://learn.co/lessons/login_required_lab' title='Login Required Lab'>Login Required Lab</a> on Learn.co and start learning to code for free.</p>
+<p data-visibility='hidden'>PHRG Login Required Lab</p>
