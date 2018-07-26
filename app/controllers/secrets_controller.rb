@@ -1,18 +1,16 @@
+# frozen_string_literal: true
+
 class SecretsController < ApplicationController
-before_action :require_login
-
-
+  before_action :require_login
 
   def show
-    render 'secrets/show'
+    render "secrets/show"
   end
-
-
-
 
 private
 
   def require_login
-    redirect_to controller: 'sessions', action: 'new' unless session.include? :name
+    return if session.include? :name
+    redirect_to controller: "sessions", action: "new"
   end
 end
