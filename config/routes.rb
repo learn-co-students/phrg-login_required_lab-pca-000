@@ -53,4 +53,10 @@ Rails.application.routes.draw do
   #     # (app/controllers/admin/products_controller.rb)
   #     resources :products
   #   end
+  root 'sessions#login'
+  get '/login', to: 'sessions#new'
+  post '/login', to: 'sessions#create'
+  get '/index', to: 'application#index'
+  get '/secrets', to: 'secrets#show'
+  post '/logout' => 'sessions#destroy'
 end
